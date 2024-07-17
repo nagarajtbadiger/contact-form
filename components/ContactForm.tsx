@@ -121,9 +121,9 @@ const ContactForm = () => {
 
   return (
     <>
-      <div className="container px-2 mx-auto h-screen w-full flex flex-col justify-center align-middle">
+      <div className="container px-2 mx-auto h-screen w-full flex flex-col mt-10">
         <form
-          className="w-full max-w-[480px] p-6 mx-auto border border-slate-300 bg-slate-200 rounded-lg"
+          className="w-full max-w-[380px] p-6 mx-auto border border-slate-300 bg-slate-200 rounded-lg"
           onSubmit={submitHandler}
         >
           <h1 className="text-center text-2xl mb-5">Contact Form</h1>

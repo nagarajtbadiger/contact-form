@@ -184,6 +184,7 @@ const ContactForm = () => {
               className="w-full rounded-md p-3 outline-none focus:outline-offset-1 focus:outline-blue-400"
               rows={5}
               onChange={onChangeHandler}
+              placeholder="Your Message"
               name="usermessage"
               id="message"
               value={formData.usermessage}
